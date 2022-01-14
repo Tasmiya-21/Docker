@@ -1,0 +1,4 @@
+FROM ubuntu
+MAINTAINER Tasmiya 
+RUN apt-get update
+CMD ["echo", "My first dockerfile"]

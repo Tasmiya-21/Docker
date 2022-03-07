@@ -1,2 +1,2 @@
-FROM ubuntu :18.01
+FROM python:latest
 CMD["python",./check.py]

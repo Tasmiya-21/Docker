@@ -1,4 +1,2 @@
-FROM hello-world
-MAINTAINER Tasmiya 
-docker run hello-world
-CMD ["echo", "Hello World"]
+FROM python:3 -onbuild
+CMD["python",./check.py]

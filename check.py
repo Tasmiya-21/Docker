@@ -1,5 +1,5 @@
 text=input("Enter your text :")
-l=["gun","ruffle","pistol","s"]
+l=["short-gun","rifle","pistol","uzi"]
 count=0
 for i in text.split():
     
@@ -7,7 +7,7 @@ for i in text.split():
         count+=1
 if count>0:
         
-    print("This is bad")
+    print("This is bad word in the string")
     
 else:
-    print("This is good")
+    print("This is good word in the string")

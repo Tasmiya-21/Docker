@@ -1,5 +1,5 @@
-#text=input("Enter your text :")
-text="short-gun"
+text=input("Enter your text :")
+#text="short-gun"
 l=["short-gun","rifle","pistol","uzi"]
 count=0
 for i in text.split():

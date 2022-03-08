@@ -1,2 +1,2 @@
 FROM python:latest
-CMD["python",./check.py]
+CMD["python","./check.py"]

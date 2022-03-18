@@ -13,7 +13,6 @@ def Arithmatic(val_1,val_2):
         elif choice == "Div":
             try:
                 print(val_1 / val_2)
-                print("zero division error")
             except:
                 print("Denominator cannot be zero")
         elif choice=="stop":

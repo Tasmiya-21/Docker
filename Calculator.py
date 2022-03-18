@@ -5,14 +5,14 @@ def Calculator(val_1,val_2):
         choice=input("Which calculation You Want To Perfom(Add,Sub,Mul,Div,stop): ")
         
         if choice == "Add":
-            print(f"The addition of {val_1} and {val_2} is {val_1+val_2}")
+            print("The addition of two numbers is", val_1+val_2)
         elif choice == "Sub":
-            print(f"The subtraction of {val_1} and {val_2} is {val_1-val_2}")
+             print("The subtraction of two numbers is", val_1-val_2)
         elif choice == "Mul":
-            print(f"The multiplication of {val_1} and {val_2} is {val_1*val_2}")
+            print("The multiplication of two numbers is", val_1*val_2)
         elif choice == "Div":
             try:
-                print(f"The division of {val_1} and {val_2} is {val_1/val_2}")
+              print("The division of two numbers is", val_1/val_2)
             except:
                 print("Denominator cannot be zero")
         elif choice=="stop":
@@ -28,4 +28,3 @@ def Calculator(val_1,val_2):
             flag=False
     
 Calculator(int(input("enter first number: ")),int(input("enter second number: ")))
-

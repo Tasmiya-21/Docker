@@ -5,7 +5,7 @@ def Calculator(val_1,val_2):
         choice=input("Which calculation You Want To Perfom(Add,Sub,Mul,Div,stop): ")
         
         if choice == "Add":
-            print(The addition of two numbers is: val_1+val_2)
+            print("The addition of two numbers is", val_1+val_2)
         elif choice == "Sub":
              print("The subtraction of two numbers is", val_1-val_2)
         elif choice == "Mul":

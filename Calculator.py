@@ -27,7 +27,5 @@ def Calculator(val_1,val_2):
         else:
             flag=False
     
-
-#Arithmatic(60,25)
-Arithmatic(int(input("enter first number: ")),int(input("enter second number: ")))
+Calculator(int(input("enter first number: ")),int(input("enter second number: ")))
 

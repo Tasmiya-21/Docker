@@ -1,18 +1,18 @@
-def Arithmatic(val_1,val_2):
+def Calculator(val_1,val_2):
     flag=True
     while(flag):
         
         choice=input("Which calculation You Want To Perfom(Add,Sub,Mul,Div,stop): ")
         
         if choice == "Add":
-            print(val_1 + val_2)
+            print(f"The addition of {val_1} and {val_2} is {val_1+val_2}")
         elif choice == "Sub":
-            print(val_1 - val_2)
+            print(f"The subtraction of {val_1} and {val_2} is {val_1-val_2}")
         elif choice == "Mul":
-            print(val_1 * val_2)
+            print(f"The multiplication of {val_1} and {val_2} is {val_1*val_2}")
         elif choice == "Div":
             try:
-                print(val_1 / val_2)
+                print(f"The division of {val_1} and {val_2} is {val_1/val_2}")
             except:
                 print("Denominator cannot be zero")
         elif choice=="stop":
@@ -28,4 +28,6 @@ def Arithmatic(val_1,val_2):
             flag=False
     
 
-Arithmatic(int(input("enter first number:")),int(input("enter second number:")))
+#Arithmatic(60,25)
+Arithmatic(int(input("enter first number: ")),int(input("enter second number: ")))
+

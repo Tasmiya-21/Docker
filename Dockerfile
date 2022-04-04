@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER Tasmiya 
 RUN apt-get update
-RUN apt-get install -y python 
+RUN apt-get install -y python-pip 
 Run pip install pytest
 ADD Calculator.py /home/Calculator.py
 ADD max_min.py /home/max_min.py

@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER Tasmiya 
 RUN apt-get update
 RUN apt-get install -y python3-pip 
-Run pip install pytest
+RUN pip install pytest
 ADD Calculator.py /home/Calculator.py
 ADD max_min.py /home/max_min.py
 #CMD ["/home/Calculator.py"]
